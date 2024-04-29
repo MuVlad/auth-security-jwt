@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql://localhost:5432/secur-db
+jwt:
+  secret: secret
+  lifetime: 30m
